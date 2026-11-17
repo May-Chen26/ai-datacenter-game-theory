@@ -1,0 +1,9 @@
+﻿label,scenario,T,rule,complaint,action,if_silent,if_complaint,D,N,status,H
+基本情景,old_boundary,1,actionable,0,continue,continue,continue,-0.1970297763432788,-2.9554466451491823,Assumed,2.9554466451491823
+基本情景,old_boundary,31,actionable,0,mitigate,mitigate,mitigate,-4.0,-10.090771493806647,Assumed,10.090771493806647
+低运行流、可暂停,pause_option,10,actionable,0,pause,pause,pause,3.9394854573469136,0,Assumed,-0.0
+允许外部选择,outside_choices,10,actionable,0,exit,exit,exit,-1.0,0,Assumed,-0.0
+基本情景,old_boundary,10,actionable,1,mitigate,continue,mitigate,-4.2,-5.319696321971369,Assumed,4.319696321971369
+已缓解后纠正昂贵,high_after_cost,10,actionable,1,continue,continue,continue,-18.449230821433982,-19.26393416960187,Assumed,18.26393416960187
+低运行流、可暂停,pause_option,1,actionable,1,pause,continue,pause,7.336980025593293,-1,Assumed,0.0
+允许外部选择,outside_choices,1,actionable,1,exit,continue,exit,-1.2,-1,Assumed,0.0
